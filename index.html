@@ -13,27 +13,52 @@
             <div class="navbar">
                 <a href="index.html"><img src="img/logo.png" class="logo"></a>
                 <ul>
-                    <li><a href="#">Problemática</a></li>
-                    <li><a href="#">Propuesta</a></li>
-                    <li><a href="#">Funcionalidades</a></li>
-                    <li><a href="#">Recursos</a></li>
+                    <li><a href="#problema">Problemática</a></li>
+                    <li><a href="#propuesta">Propuesta</a></li>
+                    <li><a href="#funcionalidades">Funcionalidades</a></li>
+                    <li><a href="#recursos">Recursos</a></li>
                 </ul>
             </div>
         </div>
         <div class="present">
             <h1><span>UPC</span>loud</h1>
-            <p>Eslogan del productoooooooooooooooooooooooooooooooooo</p>
+            <p>Mantén tu información disponible en cualquier momento y evita riesgos</p>
         </div>
     </div>
-    <div class="problema">
+    <div id="problema" class="problema">
         <h2>Descripción de la problemática</h2>
-        <p></p>
+        <div class="pro_cont">
+            <img src="img/cloud.png" alt="">
+            <p>
+                Hoy en día se interactúa con una inmensa cantidad de información debido 
+                a esto, es importante disponer de un sistema de almacenamiento en el que 
+                se puede guardar y acceder a información que se maneja día a día.
+                Para almacenar su información, muchos utilizan discos, memorias USB o tarjetas 
+                de memoria Micro SD, con las cuales se puede guardar información en bajas cantidades.
+                Sin embargo, una desventaja de emplear memorias físicas para el almacenamiento de 
+                información es que pueden suceder problemas como: la pérdida del hardware, 
+                limitación de espacio de almacenamiento, daños a la memoria, entre otras en su 
+                mayoría físicas. Como una solución a estos problemas, nació el almacenamiento en 
+                nube, o "Cloud Storage" el cual es el tipo de almacenamiento que no ocupa un 
+                lugar físico, sino que se encuentra en una nube de información.
+
+            </p>
+        </div>
     </div>
-    <div class="propuesta">
+    <div id="propuesta" class="propuesta">
         <h2>Propuesta de solución</h2>
-        <p></p>
+        <div class="pro_cont">
+            <p>
+                Desarrollaremos un dispositivo capaz de administrar un cloud storage, para
+                esto se hara uso de un Single Board Computer (SBC) como componente principal.
+                De esta manera, lograremos minimizar los costos de la implementación de este
+                servicio al igual que la cantidad de componentes utilizados, para que el 
+                mantenimiento sea más sencillo.
+            </p>
+            <img src="img/rasp_cloud.png" alt="">
+        </div>
     </div>
-    <div class="funcionalidades">
+    <div id="funcionalidades" class="funcionalidades">
         <h2>Funcionalidades implementadas</h2>
         <div class="func_general">
             <div class="func_header">
@@ -70,7 +95,7 @@
             </div>
         </div>
     </div>
-    <div class="recursos">
+    <div id="recursos" class="recursos">
         <h2>Recursos</h2>
         <div class="cards">
             <div class="card_rasp">
