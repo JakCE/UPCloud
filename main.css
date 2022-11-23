@@ -112,8 +112,8 @@ h3{
     text-align: justify;
 }
 .pro_cont img{
-    width: 500px;
-    height: 400px;
+    width: 50%;
+    height: 40%;
     padding: 50px 50px 50px 50px;
 }
 /*SECCIÓN propuesta*/
@@ -124,7 +124,7 @@ h3{
 /*SECCIÓN FUNCIONALIDADES*/
 .funcionalidades{
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background-color: rgb(247, 247, 247);
     border-radius: 50px 0px 50px 0px;
     box-shadow: 2px 0px 0px 2px #Ffce5f;
@@ -147,7 +147,6 @@ h3{
     padding: 20px;
 }
 .func_header{
-    width: 500;
     width: 450px;
     height: auto;
     margin: 10px;
@@ -214,4 +213,136 @@ h3{
 .card_server:hover{
     background-color: #F3f3f3;
     box-shadow: 2px 2px 4px 2px rgba(0,0,0,.3);
+}
+
+/*RESPONSIVE LANDING mobile*/
+@media screen and (max-width:767px){
+        /*SECCIÓN problema*/
+    .problema{
+        width: 100%;
+        height: 115vh;
+        background-color: rgb(247, 247, 247);
+        border-radius: 50px 0px 50px 0px;
+        box-shadow: 2px 0px 0px 2px #Ffce5f;
+    }
+    .pro_cont{
+        margin: 10px;
+        padding: 10px;
+        text-align: justify;
+        font-size: 12px;
+        display: inline-block;
+        
+    }
+    .pro_cont p{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .pro_cont img{
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        margin-left: 12%;
+    }
+    /*SECCIÓN propuesta*/
+    .propuesta{
+        width: 100%;
+        height: 80vh;
+    }
+        /*SECCIÓN FUNCIONALIDADES*/
+    .funcionalidades{
+        width: 100%;
+        height: 220vh;
+        background-color: rgb(247, 247, 247);
+        border-radius: 50px 0px 50px 0px;
+        box-shadow: 2px 0px 0px 2px #Ffce5f;
+        font-size: 12px;
+    }
+    .func_general{
+        display:inline-block;
+        justify-content: center;
+        align-items:center;
+    }
+    .contenido_func{
+        margin: auto;
+        margin-left: 25%;
+        padding-top: 0px;
+        width: 50%;
+        height: 115vh;
+        vertical-align: middle;
+        text-align: justify;
+    }
+    .contenido_func p{
+        padding: 20px;
+    }
+    .func_header{
+        width: auto;
+        height: auto;
+        margin: auto;
+        margin-top: 0px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .func_img{
+        width: 250px;
+        height: 250px;
+        border-radius: 5px;
+    }
+        /*RECURSOS*/
+    .recursos{
+        width: 100%;
+        height: 190vh;
+        font-size: 12px;
+    }
+    .card_rasp{
+        width: 300px;
+        height: 70vh;
+        margin: 50px;
+        padding: 2px;
+        background-color: #fff;
+        box-shadow: 1px 1px 4px 2px rgba(0,0,0,.2);
+        border-radius: 8px;
+    }
+    .recursos img{
+        width: 250px;
+        height: 250px;
+        background-color: transparent;
+    }
+    .card_server{
+        width: 300px;
+        height: 70vh;
+        margin: 50px;
+        padding: 2px;
+        background-color: #fff;
+        box-shadow: 1px 1px 4px 2px rgba(0,0,0,.2);
+        border-radius: 8px;
+    }
+    .header_a{
+        padding: 10px;
+        border-bottom: 2px solid #ddd;
+    }
+    .header_a p{
+        text-align: center;
+        font-size: 20px;
+        color: #Ff764b;
+        text-decoration: underline;
+        text-decoration-color: #009688;
+    }
+    .text{
+        padding: 25px;
+        text-align: justify;
+    }
+    .cards{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+    .card_rasp:hover{
+        background-color: #F3f3f3;
+        box-shadow: 2px 2px 4px 2px rgba(0,0,0,.3);
+    }
+    .card_server:hover{
+        background-color: #F3f3f3;
+        box-shadow: 2px 2px 4px 2px rgba(0,0,0,.3);
+    }
+
 }
